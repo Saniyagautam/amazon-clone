@@ -1,0 +1,363 @@
+*{
+    margin:0px;
+    padding:0px;
+    border:border-box;
+    font-family:Arial;
+}
+
+/*NAVBAR*/
+.navbar{
+    background-color: #0f1111;
+    height:65px;
+    color:white;
+    display:flex;/*to make all the divs in same line*/
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height:50px;
+    width:135px;
+}
+.logo{
+    background-image: url(amazonlogo.png);
+    background-size:cover;
+    height:50px;
+    width:100%;
+  
+}
+.border{/*border class to add hover effect*/
+    border:2px transparent solid;
+}
+.border:hover{
+    border:2px solid white;
+}
+.add-icon{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.deliver{
+    font-size:1rem;/*to make it responsive thus rem*/
+    color:#cccccc;
+    margin-left:20px;
+    margin-right:3px;
+}
+.india{
+    font-size: 1.2rem;
+    color:white;
+    margin-left:5px;
+    margin-right:3px;
+}
+.nav-search{
+    display:flex;
+    justify-content:space-evenly;
+    height:39px;
+    width:650px;
+   
+    
+}
+.nav-search:hover{
+    border:3px solid #febd68;
+    border-radius:4px;
+}
+.search-option{
+    width:45px;
+    height:39px;
+    background-color: #E6E6E6;
+    text-align:center;
+    border-top-left-radius:5px;
+    border-bottom-left-radius: 5px;
+    border:none;
+    font-size:1rem;
+}
+.search-input{
+    width:100%;/*give area to icon and option only remaining occupied by input*/
+    font-size:1rem;
+    border:none;
+}
+.search-icon{
+    width:45px;
+    text-align:center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1.13rem;
+    background-color: #febd68;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #0f1111;
+}
+
+.flag{
+    height:18px;
+    width:24px;
+    background-image: url(flag.png);
+    background-size: cover;
+}
+.nav-lang{
+    display:flex;
+    height:50px;
+    width:80px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.in{
+    height:19px;
+    width:15px;
+}
+.en{
+    font-weight:900;
+    font-size:17px;
+    color:#ffffff;
+}
+.select{
+    color:#a7acb2;
+    text-align: end;
+    margin-left:3px;
+}
+span{
+    font-size:0.8rem;
+}
+.nav-second{
+    font-size:1rem;
+    font-weight:800;
+}
+.nav-cart{
+    display:flex;
+    justify-content:space-evenly;
+}
+.nav-cart i{
+    font-size:32px;
+}
+.nav-cart p{
+    margin-top:17px;
+}
+
+/*PANEL*/
+.panel{
+    height:43px;
+    background-color: #222f3d;
+    display:flex;
+    color:white;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.panel a{
+    text-decoration: none;
+    color:white;
+    margin-left:15px;
+}
+.panel-ops{
+    width:70%;
+    font-size:1rem;
+}
+.panel-deals{
+    font-size:1.1rem;
+    font-weight:700;
+}
+.panel-all{
+    font-size:1.1rem;
+    font-weight:700;
+
+}
+.border1:hover{
+    padding:6px;
+    border:3px solid white;
+}
+
+/*hero-section*/
+.hero-section{
+    background-image:url("replace.jpg");
+    background-size:cover;
+    height:350px;
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
+
+}
+.hero-msg{
+    background-color: white;
+    color:black;
+    height:40px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size:1rem;
+    width:90%;
+    margin-bottom:0px;
+
+}
+.hero-msg a{
+    color:#007185;
+   
+}
+
+/*SHOP-SECTION*/
+.shop-section{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background:linear-gradient(rgb(188, 233, 187),rgb(200, 226, 199),white);/*change3*/
+    margin-left:24px;
+    margin-right:24px;
+}
+.box{
+    height:400px;
+    width:24%;
+    background-color: white;
+    padding:20px 0px 15px;
+    margin-top:7px;
+
+}
+.box-img{
+    height:350px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin-top:0.5rem;
+    margin-bottom:0.5rem;
+
+
+}
+.box_content{
+    margin-left:1.2rem;
+    margin-right:1.2rem;
+   
+   
+}
+.shop-section a{
+    color:#007185;
+    text-decoration: none;
+    font-size:1.1rem;
+}
+/*FOOTER*/
+footer{
+    margin-top:15px;
+}
+.footer-sec1{
+    background-color:#37475a;
+    color:white;
+    height:50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1.2rem;
+}
+
+.footer-sec2{
+    background-color: #222f3d;
+    color:white;
+    height:300px;
+    display:flex;
+    justify-content: space-between;
+   
+    
+}
+ul{
+    margin:80px;
+}
+ul p{
+    font-size:1.2rem;
+}
+ul a{
+    font-size:0.8rem;
+    display:block;
+    margin-top:10px;
+    color:#DDDDDD;
+    text-decoration: none;
+}
+.foot-sec3{
+    border-top:solid 0.3px #dddddd;
+    background-color: #222f3d;
+    color:white;
+    height:120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.foot-globe{
+    height:40px;
+    display:flex;
+    justify-content:center;
+    margin-top:20px;
+    font-size:1rem;
+    border:0.5px white solid;
+}
+.foot-globe i{
+    font-size:1rem;
+    padding:10px;
+  
+}
+.foot-globe p{
+    font-size:20px;
+    margin-left:7px;
+    padding:8px;
+}
+.foot-flag{
+    margin-top:18px;
+    font-size:1.12rem;
+    height:40px;
+    width:140px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:30px;
+    border:0.5px white solid;
+}
+.foot-sec4{
+    height:620px;
+    background-color: #0f1111;
+    display:flex;
+    justify-content: space-evenly;
+   
+}
+.foot-sec4 a{
+    text-decoration:none;
+    font-size:1.1rem;
+    margin-bottom:7px;
+}
+.foot-sec4 p{
+    color:#999999;
+    font-size:0.8rem;
+}
+.foot-sec4 li{
+    list-style-type: none;
+    margin-top:37px;
+}
+
+.foot-sec5{
+    height:50px;
+    background-color: #0f1111;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.top{
+    display:flex;
+    color:white;
+    font-size:1rem;
+   
+}
+.top1{
+    padding-right:20px;
+}
+.end{
+  
+    height:10px;
+    background-color: #0f1111;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:10px;
+   
+}
+.clone{
+    color:white;
+    background-color: #0f1111;
+    height:40px;
+    text-align:right;
+    padding-right:30px;
+}
